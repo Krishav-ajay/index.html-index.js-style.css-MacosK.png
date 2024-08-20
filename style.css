@@ -1,0 +1,24 @@
+* {
+    background-image: none;
+    background: linear-gradient(300deg, #780206, #371686, #063361);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    background-attachment: fixed;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
